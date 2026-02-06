@@ -1,0 +1,1 @@
+const fs=require('fs'),p=require('path'),B='D:/claude/onsia-midjuny';const F=JSON.parse(fs.readFileSync(p.join(B,'_files.json'),'utf8'));for(const[k,v]of Object.entries(F)){const fp=p.join(B,k);fs.mkdirSync(p.dirname(fp),{recursive:true});fs.writeFileSync(fp,v,'utf8');console.log('OK:',k);}
