@@ -14,6 +14,8 @@ const SEGMENT_CONFIG: {
 }[] = [
   { key: 'subject', label: 'Subject', className: 'segment-subject' },
   { key: 'character', label: 'Character', className: 'segment-character' },
+  { key: 'action', label: 'Action', className: 'segment-action' },
+  { key: 'background', label: 'Background', className: 'segment-background' },
   { key: 'camera', label: 'Camera', className: 'segment-camera' },
   { key: 'shot', label: 'Shot', className: 'segment-shot' },
   { key: 'lighting', label: 'Lighting', className: 'segment-lighting' },

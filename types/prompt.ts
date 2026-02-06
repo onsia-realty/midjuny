@@ -27,6 +27,8 @@ export interface PromptInput {
 
 export interface PromptSegments {
   subject: string;
+  action: string;
+  background: string;
   character: string;
   camera: string;
   shot: string;
